@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, classification_report
 
 # Load dataset
-df = pd.read_csv('lib/reference_dataset/iris.csv')  # Change the path if needed
+df = pd.read_csv('lib/reference_dataset/iris.csv')
 
 # Check missing values
 print("\nChecking for missing values...")
